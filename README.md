@@ -10,7 +10,7 @@ Usando componentes de roteamento e CSS Ionic 3, Componentes Angulares 4, Diretiv
 Navegação com tabs (uso de eventos Angular / Ionic do ciclo de vida para alterar e atualizar dados)
 Para adicionar: lista de tipos de FILMES + detalhes
 
-<img src="https://github.com/loiane/ionic2-pokedex/blob/master/ionic2-pokedex.gif" width="250" height="450" />
+<img src="url da imagem" width="250" height="450" />
 
 ### instalar
 
