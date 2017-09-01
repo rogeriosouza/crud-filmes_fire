@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Filmes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  
+    
+    <ion-card class="pin" *ngFor="let post of filmesLista | async">
+     <ion-card *ngFor="let pimage of posts"> 
+      <img [src]="pimage.image" (click)="cardTapped(card)" />
+      <!-- <img [src]="posts.image" (click)="cardTapped(card)" /> -->
+      <ion-card-content>
+        <h2 class="card-title">
+          {{post.nomeFilme}}
+        </h2>
+        <!-- 
+        <p>
+          {{card.description}}
+        </p> -->
+      </ion-card-content>
+      <ion-row no-padding>
+        <ion-col>
+          <button ion-button clear small color="danger" icon-left (click)="removeItem(post.$key)">
+          <ion-icon name='star'></ion-icon>
+          Favorite
+        </button>
+        </ion-col>
+         <ion-col text-right>
+            <button ion-button clear small color="danger" icon-left (click)="share(card)">
+            <ion-icon name='share-alt'></ion-icon>
+            Share
+          </button>
+        </ion-col>
+        <ion-col text-right>
+          <button ion-button clear small color="danger" icon-left (click)="share(card)">
+          <ion-icon name='trash'></ion-icon>
+          APAGAR
+        </button>
+        </ion-col>
+      </ion-row>
+
+    </ion-card>
+  </ion-card>
+
+</ion-content>
