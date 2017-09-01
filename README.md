@@ -17,11 +17,11 @@ Para adicionar: lista de tipos de FILMES + detalhes
 Instalar
 
 Você pode executar este aplicativo no navegador seguindo as etapas abaixo:
-
+```bash
 $ npm install -g ionic@latest
 $ npm install
 $ ionic serve
-
+```
 
 Substitute ios for android if not on a Mac.
 
