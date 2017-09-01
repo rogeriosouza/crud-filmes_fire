@@ -1,26 +1,27 @@
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+## IONIC3- FIRABASE+ANGULARFIRE2
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Aplicativo móvel híbrido exemplo login com firebase desenvolvido com Ionic 3, AngularFIRE2 ,AngularTypescript e Apache Cordova. Usando  imagens locais.
+## Funcionalidades
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Lista de Filmes com detalhes , Favoritos, locais
+Usando componentes de roteamento e CSS Ionic 3, Componentes Angulares 4, Diretivas, pipes, RxJS Observáveis
+Navegação com tabs (uso de eventos Angular / Ionic do ciclo de vida para alterar e atualizar dados)
+Para adicionar: lista de tipos de FILMES + detalhes
 
-### With the Ionic CLI:
+<img src="https://github.com/loiane/ionic2-pokedex/blob/master/ionic2-pokedex.gif" width="250" height="450" />
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+### instalar
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+Instalar
 
-Then, to run it, cd into `myTabs` and run:
+Você pode executar este aplicativo no navegador seguindo as etapas abaixo:
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+$ npm install -g ionic@latest
+$ npm install
+$ ionic serve
+
 
 Substitute ios for android if not on a Mac.
 
